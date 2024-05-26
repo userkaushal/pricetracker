@@ -1,0 +1,6 @@
+.nav {
+    /* width: 100vw; */
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+}
