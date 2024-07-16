@@ -1,0 +1,39 @@
+.Cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.imgdev {
+
+    object-fit: cover;
+    width: 103px;
+    height: 123px;
+    margin: auto;
+    padding: 10px;
+    /*     
+    object-fit: cover;
+    width: 100px;
+    height: 100px; */
+}
+
+
+/* Hover effect for product cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover effect for buttons */
+.button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+}

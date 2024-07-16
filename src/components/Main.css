@@ -1,0 +1,103 @@
+.Main {
+    margin-top: 50px;
+}
+
+.searchbar {
+    margin: auto;
+    border: 1px solid #ff6d1f;
+    width: 35vw;
+    border-radius: 30px;
+    border-width: 2px;
+    margin-top: 50px;
+}
+
+label {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+}
+
+input {
+    border: none;
+    width: 90%;
+    line-height: 1.2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    border-color: white;
+}
+
+input:focus-visible {
+    border: none;
+    border-color: white;
+    text-decoration: none;
+}
+
+/* 
+.typewriter {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    position: relative; 
+  }
+  
+  .typewriter span {
+    overflow: hidden;
+    display: inline-block;
+    width: 0;
+    animation: typing 1s steps(10, end) infinite, blink-caret 0.75s infinite alternate;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: auto;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-right: 2px solid transparent;
+    }
+    50% {
+      border-right: 2px solid #000;
+    }
+  }
+  
+  
+  .typewriter::after {
+    content: '|'; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: blink-caret 0.75s steps(1, end) infinite; 
+  } */
+
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    .searchbar {
+      margin: auto  ;
+      border: 1px solid #ff6d1f;
+      width: 80vw;
+      border-radius: 30px;
+      border-width: 2px;
+      margin-top: 50px;
+  }
+  
+  }
+
+  @media only screen and (min-device-width : 767px) and (max-device-width : 1023px) {
+    /* Styles */
+    .searchbar {
+      margin: auto  ;
+      border: 1px solid #ff6d1f;
+      width: 80vw;
+      border-radius: 30px;
+      border-width: 2px;
+      margin-top: 50px;
+  }
+  
+  }

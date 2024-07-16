@@ -1,0 +1,55 @@
+.accordion {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accordion-header:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .accordion-title {
+    margin: 0;
+    flex-grow: 1;
+    font-size: 18px;
+  }
+  
+  .accordion-icon {
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-icon.plus {
+    background-image: url('/src/assets/plusicon.svg'); /* Replace 'plus-icon.svg' with your plus sign icon */
+  }
+  
+  .accordion-icon.minus {
+    background-image: url('/src/assets/minusicon.svg'); /* Replace 'minus-icon.svg' with your minus sign icon */
+  }
+  
+  .accordion-content {
+    padding: 10px;
+    background-color: #fff;
+    transition: max-height 0.3s ease;
+    max-height: 100px;
+    overflow: hidden;
+  }
+  
+  .accordion-content.open {
+    max-height: 200px; /* Adjust as needed based on your content height */
+  }
+  

@@ -1,0 +1,54 @@
+.containercls {
+    margin-top: 50px;
+    
+    
+}
+.flexbox {
+    display: flex;    
+    margin: auto;
+    max-width: 45vw;
+
+}
+.imgside {
+    /* width: 50%; */
+}
+
+.rightbox {
+    /* width: 30vw; */
+    margin-left: 50px;
+}
+
+.another {    
+    margin: 45px auto;
+    margin-top: 100px;
+    width: 45vw;
+}
+
+.another h2 {
+    display: inline-block;
+    text-align: left;
+    margin: 0 0;
+
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    .flexbox {
+        display: flex;    
+        flex-direction: column;
+        /* margin: auto; */
+        max-width: 85vw;
+    
+    }
+    img {
+        margin: auto;
+    }
+    .rightbox {
+        /* width: 30vw; */
+        /* margin-left: 50px; */
+        max-width: 85vw;
+        margin: auto;
+        margin-top: 10%;
+    }
+  }
